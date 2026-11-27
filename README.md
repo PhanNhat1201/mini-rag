@@ -18,7 +18,7 @@ over a small document collection and cites the source passages it used.
 
 ## Roadmap
 
-- [ ] Document loader
+- [X] Document loader
 - [ ] Project setup with `uv`
 - [ ] BM25 retrieval baseline
 - [ ] Tests and linting (`pytest`, `ruff`)
