@@ -1,0 +1,34 @@
+# 1. Virtual environments
+.venv/
+venv/
+
+# 2. Python & notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# 3. Data, models, indexes, run outputs
+data/*
+!data/README.md
+models/
+*.pt
+*.bin
+*.safetensors
+indexes/
+*.faiss
+outputs/
+logs/
+
+# 4. Secrets
+.env
+.env.*
+!.env.example
+
+# 5. OS & editor junk
+Thumbs.db
+desktop.ini
+.DS_Store
+.idea/
+.vscode/
